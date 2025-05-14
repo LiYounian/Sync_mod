@@ -1,6 +1,7 @@
 # ---------- 服务端代码 (server.py) ----------
 import os
 import hashlib
+import argparse
 from flask import Flask, send_file, jsonify
 
 app = Flask(__name__)
